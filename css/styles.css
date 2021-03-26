@@ -1,0 +1,50 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    line-height: 2;
+  }
+p{
+    line-height: 2;
+    letter-spacing: 1px;
+    margin: 2em;
+    width: 50%;
+ }
+ .logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  size: 100px;
+ }
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    width: max-content;
+    gap: 1rem;
+    border: 4px solid rebeccapurple;
+    margin: 4em 0;
+    padding: 0.25em 1em;
+    color: green;
+    align-self: center; 
+  }
+ /*.navbar li {
+    display: block; 
+    align-self: center;
+  }
+.navbar a {
+    text-decoration: none;
+    color: rgb(12, 199, 21);
+  }
+.navbar a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(29, 189, 189);
+    text-decoration-thickness: 10px;
+    text-underline-offset: 1px;
+  }
+.js {
+    color: rgb(15, 15, 13);
+    font-size: 150%;
+  }
+.heading1 {
+  color: yellow;
+}
+  
