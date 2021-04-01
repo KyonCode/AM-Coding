@@ -1,10 +1,36 @@
 
         <!DOCTYPE html><html lang="cs">
         <head>
-                        <meta charSet="utf-8"/>
+                <meta charSet="utf-8"/>
+
+                <link href="css/styles.css" rel="stylesheet">
+                
+
+                <link rel="preconnect" href="https://fonts.gstatic.com">
+                <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+                <title>Game</title>
+                
         </head>
+
+        <body>
         
-        
-        <p> game </p>
+        <h1> I want to play a game...</h1>
        
+        <p>I have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+
+        <div class="form">
+                <label for="guessField">Enter a guess: </label>
+                <input type="text" id="guessField" class="guessField">
+                <input type="submit" value="Submit guess" class="guessSubmit">
+        </div>
+          
+        <div class="resultParas">
+                <p class="guesses"></p>
+                <p class="lastResult"></p>
+                <p class="lowOrHi"></p>
+        </div>
+
+        </body>
         
+        <script src="scripts/game.js"></script>
