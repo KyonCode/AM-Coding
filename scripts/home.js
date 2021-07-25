@@ -1,28 +1,25 @@
-let myButton = document.querySelector('button');
-let myHeading = document.querySelector('h1');
+let myButton = document.querySelector("button");
+let myHeading = document.querySelector("h1");
 
-myButton.onclick = function() {
-    setUserName();
-  };
+myButton.onclick = function () {
+  setUserName();
+};
 
-  function setUserName() {
-    let myName = prompt('Please enter your name.');
-    if(!myName) {
-      setUserName();
-    } else {
-      localStorage.setItem('name', myName);
-      myHeading.textContent = 'Hello, ' + myName + ', please be welcomed.';
-    }
-  }
-
-  /*if(!localStorage.getItem('name')) {
+function setUserName() {
+  let myName = prompt("Please enter your name.");
+  if (!myName) {
     setUserName();
   } else {
-    let storedName = localStorage.getItem('name');
-    myHeading.textContent = 'Hello, ' + storedName + ' welcome to my site';
-  };
+    localStorage.setItem("name", myName);
+    myHeading.textContent = "Hello, " + myName + ", please be welcomed.";
+  }
+}
 
-     document.querySelector('p').onclick = function() {
-    alert('Ouch! Stop poking me!');
-};*/
-    
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
