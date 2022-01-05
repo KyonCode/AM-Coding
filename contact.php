@@ -28,7 +28,7 @@
           <li class="-mb-px mr-1"><a href="index.html">Home</a></li>
           <li class="-mb-px mr-1"><a href="about.html">about</a></li>
           <li class="-mb-px mr-1"><a href="game.html">Game</a></li>
-          <li class="-mb-px mr-1"><a href="Contact.html">Contact Me</a></li>
+          <li class="-mb-px mr-1"><a href="contact.php">Contact Me</a></li>
         </ul>
       </nav>
     </header>
