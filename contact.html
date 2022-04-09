@@ -6,33 +6,33 @@
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script>
-      function Menu(e){
-        const list = document.querySelector("ul")
-        e.name === 'menu' ? (e.name = "close",list.classList.add('top-[80px]'),list.classList.add('opacity-100')) : (e.name = "menu", list.classList.remove('top-[80px]'),list.classList.remove('opacity-100'))
+      function Menu(e) {
+        const list = document.querySelector("ul");
+        e.name === "menu" ? ((e.name = "close"), list.classList.add("top-[80px]"), list.classList.add("opacity-100")) : ((e.name = "menu"), list.classList.remove("top-[80px]"), list.classList.remove("opacity-100"));
       }
     </script>
     <link href="css/stylesOUT.css" rel="stylesheet" />
     <title>AM Coding</title>
   </head>
-<header>
-  <body class="bg-gradient-to-r from-white to-blue-500 items-center">
+  <header>
     <nav class="bg-white shadow py-5 cursor-pointer md:flex md:items-center md:justify-between px-5 mb-10">
       <div>
-        <span class="text-2xl font-serif font-semibold"><img class="h-10 inline pr-4" src="logoAMCoding.svg" alt="logo" />AM Coding</span>
+        <span class="text-3xl italic font-sanserif font-semibold"><img class="h-28 w-28 inline pr-4" src="logoAMCoding.svg" alt="logo" />AM Coding</span>
         <span class="text-3xl cursor-pointer mx-2 md:hidden">
           <ion-icon name="menu-outline" onclick="Menu(this)"></ion-icon>
         </span>
       </div>
-      <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full md:w-auto left-0 md:py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px] transition-all ease-in duration-500">
-        <li class="mx-4 hover:bg-slate-300 rounded-3xl p-2 my-6 md:my-0"><a href="index.html" class="text-2xl hover:text-white duration-500">Home</a></li>
-        <li class="mx-4 hover:bg-slate-300 rounded-3xl p-2 my-6 md:my-0"><a href="game.html" class="text-2xl hover:text-white duration-500">Game</a></li>
-        <li class="mx-4 hover:bg-slate-300 rounded-3xl p-2 my-6 md:my-0"><a href="contact.html" class="text-2xl hover:text-white duration-500">Contact</a></li>
-        <li class="mx-4 hover:bg-slate-300 rounded-3xl p-2 my-6 md:my-0"><a href="about.html" class="text-2xl hover:text-white duration-500">About</a></li>
+      <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full md:w-auto left-0 md:py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px]">
+        <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="index.html" class="text-2xl hover:text-white duration-500">Home</a></li>
+        <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="game.html" class="text-2xl hover:text-white duration-500">Game</a></li>
+        <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="about.html" class="text-2xl hover:text-white duration-500">About</a></li>
+        <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="contact.html" class="text-2xl hover:text-white duration-500">Contact</a></li>
       </ul>
     </nav>
   </header>
+  <body class="bg-gradient-to-r from-pink-600 to-orange-500 items-center">
     <main class="h-maxfont-serif">
-      <div class="flex items-stretch h-max justify-center p-72">
+      <div class="flex items-stretch h-max justify-center md:p-4 p-72">
         <div class="bg-blue-500 w-96 h- text-white flex-col p-6 rounded-l-2xl">
           <h2 class="font-semibold text-center py-4 text-3xl">Information</h2>
           <p>Hello</p>
