@@ -1,4 +1,4 @@
-let myButton = document.querySelector("button");
+let myButton = document.querySelector("button1");
 let myHeading = document.querySelector("h1");
 
 myButton.onclick = function () {
@@ -19,6 +19,7 @@ function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
+    n - o - pnp - 0;
   } else {
     x.className = "topnav";
   }

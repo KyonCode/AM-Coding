@@ -30,7 +30,22 @@
       </div>
       <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-white w-full md:w-auto left-0 md:py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[400px]">
         <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="index.html" class="text-2xl hover:text-white duration-500">Home</a></li>
-        <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="game.html" class="text-2xl hover:text-white duration-500">Funny things</a></li>
+        <div class="group inline-block">
+          <button class="text-2xl hover:text-white duration-500 focus:outline-none px-3 py-1 bg-white rounded-sm flex items-center min-w-32">
+            <span class="hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0">Portfolio</span>
+            <span>
+              <svg class="fill-current h-4 w-4 transform group-hover:-rotate-180 transition duration-150 ease-in-out" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+              </svg>
+            </span>
+          </button>
+          <ul class="text-xl bg-white border rounded-3xl transform scale-0 group-hover:scale-100 absolute transition duration-150 ease-in-out origin-top min-w-32">
+            <li class="m-2 text-center rounded-sm px-3 py-1 hover:bg-gray-100 hover:rounded-3xl">Guess Number</li>
+            <li class="m-2 text-center rounded-sm px-3 py-1 hover:bg-gray-100 hover:rounded-3xl"><a href="guessNumber.html"> Guess number </a></li>
+          </ul>
+        </div>
+
+        <!-- <a href="game.html" class="text-2xl hover:text-white duration-500">Game</a></li> -->
         <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="about.html" class="text-2xl hover:text-white duration-500">About</a></li>
         <li class="mx-4 hover:bg-blue-300 rounded-3xl p-2 my-6 md:my-0"><a href="contact.html" class="text-2xl hover:text-white duration-500">Contact</a></li>
       </ul>
